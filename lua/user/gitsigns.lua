@@ -5,33 +5,33 @@ end
 
 gitsigns.setup {
   signs = {
-    add = { 
+    add = {
       -- hl = "GitSignsAdd", 
-      text = "▎", 
+      text = "▎",
       -- numhl = "GitSignsAddNr", 
       -- linehl = "GitSignsAddLn" 
     },
-    change = { 
+    change = {
       -- hl = "GitSignsChange", 
-      text = "▎", 
+      text = "▎",
       -- numhl = "GitSignsChangeNr", 
       -- linehl = "GitSignsChangeLn" 
     },
-    delete = { 
+    delete = {
       -- hl = "GitSignsDelete", 
-      text = "契", 
+      text = "󰐊",
       -- numhl = "GitSignsDeleteNr", 
       -- linehl = "GitSignsDeleteLn" 
     },
-    topdelete = { 
+    topdelete = {
       -- hl = "GitSignsDelete", 
-      text = "契", 
+      text = "󰐊",
       -- numhl = "GitSignsDeleteNr", 
       -- linehl = "GitSignsDeleteLn" 
     },
-    changedelete = { 
+    changedelete = {
       -- hl = "GitSignsChange", 
-      text = "▎", 
+      text = "▎",
       -- numhl = "GitSignsChangeNr", 
       -- linehl = "GitSignsChangeLn" 
     },

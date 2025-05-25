@@ -45,7 +45,8 @@ return packer.startup(function(use)
   use { "windwp/nvim-autopairs" } -- Autopairs, integrates with both cmp and treesitter
   use { "numToStr/Comment.nvim" }
   use { "JoosepAlviste/nvim-ts-context-commentstring" }
-  use { 
+  use { 'echasnovski/mini.icons', version = '*' }
+  use {
 	'nvim-tree/nvim-tree.lua',
 	requires = {
 		'nvim-tree/nvim-web-devicons'
@@ -57,7 +58,7 @@ return packer.startup(function(use)
   use { "akinsho/toggleterm.nvim" }
   use { "ahmedkhalf/project.nvim" }
   use { "lewis6991/impatient.nvim" }
-  use { "lukas-reineke/indent-blankline.nvim", main = "ibl" }
+  use { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
   use { "goolord/alpha-nvim" }
   use { "folke/which-key.nvim" }
   use { "folke/lazydev.nvim" }
